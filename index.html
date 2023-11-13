@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style/home.css" />
+    
+    <script src="./script/navigate_to_pizza.js"></script>
+    <script src="./script/navigate_to_sauce.js"></script>
+    <script src="./script/navigate_to_drink.js"></script>
+    <title>Pizza</title>
+    <link rel="icon" href="./images/icon.png" type="image/png" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./images/pizza_logo4-.png" alt="image" />
+      </div>
+      <button id="log-out-button" class="log-out-button">Log out</button>
+    </div>
+    <div class="pizza-content">
+      <div class="title">
+        <h2>Պիցցաներ</h2>
+        <hr />
+      </div>
+      <div class="pizzas">
+        <div class="pizza1" id="pizza1">
+          <img src="./images/pizza1.png" alt="Image" />
+          <h2>ԿՐԿՆԱԿԻ ՊԵՊՊԵՐՈՆԻ</h2>
+          <p>պեպպերոնի, պանիր, տոմատի սոուս</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza1')">
+
+        </div>
+        <div class="pizza2" id="pizza2">
+          <img src="./images/pizza2.png" alt="Image" />
+          <h2>ՀԱՎԻ ԿՐԾՔԱՄՍՈՎ և ՍՆԿՈՎ</h2>
+          <p>հավի կրծքամիս, սունկ,մոցարելլա, տոմատի սոուս, սոխ</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza2')">
+
+        </div>
+        <div class="pizza3" id="pizza3">
+          <img src="./images/p12-removebg-preview.png" alt="Image" />
+          <h2>ՄԵՔՍԻԿԱԿԱՆ</h2>
+          <p>
+            պեպպերոնի, խոզապուխտ, ձիթապտուղ, պղպեղ, սունկ, մոցարելլա, տոմատի
+            սոուս
+          </p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza3')">
+
+        </div>
+        <div class="pizza4" id="pizza4">
+          <img src="./images/pizza5.png" alt="Image" />
+          <h2>ԿՎԱՏՐՈ ՖՈՐՄԱՋԻ</h2>
+          <p>երշիկ, մայոնեզ, կանաչի ,պանիր,</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza4')">
+
+        </div>
+        <div class="pizza5" id="pizza5">
+          <img src="./images/p24-removebg-preview.png" alt="Image" />
+          <h2>ԿՐԿՆԱԿԻ ՄՈՑԱՐԵԼԼԱ</h2>
+          <p>մոցարելլա, պարմեզան, տոմատի սոուս, օրեգանո</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza5')">
+
+        </div>
+        <div class="pizza6" id="pizza6">
+          <img src="./images/pizza7.png" alt="Image" />
+          <h2>ԱՄԵՐԻԿԱՆԱ ՖՐԵՇՇ</h2>
+          <p>մոցարելլա, դափնու տերև,տոմատի սոուս,սոխ</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza6')">
+
+        </div>
+        <div class="pizza7" id="pizza7">
+          <img src="./images/p10-removebg-preview.png" alt="Image" />
+          <h2>ՆՅՈՒ-ՅՈՐԿԵՐ</h2>
+          <p>հավի միս, լոլիկ, մոցարելլա, սպիտակ սոուս, օրեգանո</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza7')">
+
+        </div>
+        <div class="pizza8" id="pizza8">
+          <img src="./images/pizza8.png" alt="Image" />
+          <h2>ԿԾՈՒ ՄՍԱՅԻՆ</h2>
+          <p>հավի կրծքամիս, տոմատի սոուս, մոցարելլա, սունկ, սոխ</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza8')">
+
+        </div>
+        <div class="pizza9" id="pizza9">
+          <img src="./images/pizza12.png" alt="Image" />
+          <h2>ԿԵՍԱՐ</h2>
+          <p>
+            հավի կրծքամիս, տոմատի սոուս, լոլիկ ,մոցարելլա, ձիթապտուղ , սունկ
+          </p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza9')">
+
+        </div>
+        <div class="pizza10" id="pizza10">
+          <img src="./images/p14-removebg-preview.png" alt="Image" />
+          <h2>ՄՈՄԻՆՈ</h2>
+          <p>սունկ, զեյթուն, մոցարելլա, օրեգանո, տոմատի սոուս</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza10')">
+
+        </div>
+        <div class="pizza11" id="pizza11">
+          <img src="./images/p15-removebg-preview.png" alt="Image" />
+          <h2>ՀԱՎ BBQ ՍՈՈՒՍՈՎ</h2>
+          <p>
+            BBQ սոուս, հավի միս, բեկոն, մոցարելլա պանիր, չեդդեր պանիր, տոմատի
+            սոուս, օրեգանո
+          </p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza11')">
+
+        </div>
+        <div class="pizza12" id="pizza12">
+          <img src="./images/p19-removebg-preview.png" alt="Image" />
+          <h2>ՍՈՒՊԵՐ ՄՍԱՅԻՆ</h2>
+          <p>բեկոն, չորիզո,պեպպերոնի, հավի միս,տոմատի սոուս, մոցարելլա</p>
+          <input type="submit" class="order" value="Order" onclick="navigateToPizza('pizza12')">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="souce-content">
+      <div class="title">
+        <h2>Սոուսներ</h2>
+        <hr />
+      </div>
+      <div class="souces">
+        <div class="sauce1" id="sauce1">
+          <img src="./images/souce1-removebg-preview.png" alt="Image" />
+          <h3>պանրով սոուս</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToSauce('sauce1')">
+
+        </div>
+        <div class="sauce2" id="sauce2">
+          <img src="./images/souce4-removebg-preview.png" alt="Image" />
+          <h3>կետչուպ</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToSauce('sauce2')">
+
+        </div>
+        <div class="sauce3" id="sauce3">
+          <img src="./images/souce3-removebg-preview.png" alt="Image" />
+          <h3>կեսար սոուս</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToSauce('sauce3')">
+
+        </div>
+        <div class="sauce4" id="sauce4">
+          <img src="./images/souce2-removebg-preview.png" alt="Image" />
+          <h3>չիլի սոուս</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToSauce('sauce4')">
+
+        </div>
+        <div class="sauce5" id="sauce5">
+          <img src="./images/souce5-removebg-preview.png" alt="Image" />
+          <h3>սխտորով սոուս</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToSauce('sauce5')">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="drink-content">
+      <div class="title">
+        <h2>Սոկեղեն</h2>
+        <hr />
+      </div>
+      <div class="drinks">
+        <div class="drink1" id="drink1">
+          <img src="./images/drink1-removebg-preview.png" alt="Image" />
+          <h3>Coca cola</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToDrink('drink1')">
+
+        </div>
+        <div class="drink2" id="drink2">
+          <img src="./images/drink2-removebg-preview.png" alt="Image" />
+          <h3>Fanta</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToDrink('drink2')">
+        </div>
+        <div class="drink3" id="drink3">
+          <img src="./images/drink3-removebg-preview.png" alt="Image" />
+          <h3>Sprite</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToDrink('drink3')">
+
+        </div>
+        <div class="drink4" id="drink4">
+          <img src="./images/drink4-removebg-preview.png" alt="Image" />
+          <h3>Բյուրեղ</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToDrink('drink4')">
+
+        </div>
+        <div class="drink5" id="drink5">
+          <img src="./images/drink5-removebg-preview.png" alt="Image" />
+          <h3>Ջերմուկ</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToDrink('drink5')">
+
+        </div>
+        <div class="drink6" id="drink6">
+          <img src="./images/drink6-removebg-preview.png" alt="Image" />
+          <h3>Դոբրի</h3>
+          <input type="submit" class="order" value="Order" onclick="navigateToDrink('drink6')">
+
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .getElementById("log-out-button")
+        .addEventListener("click", function () {
+          window.location.href = "./index.html";
+        });
+    </script>
+  </body>
+</html>
+
